@@ -1,0 +1,70 @@
+@font-face {
+  font-family: scoreFont;
+  src: url('scoreFont.ttf');
+}
+
+.border{
+    border: 1px dotted white;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 575px;
+    height: 385px;
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A
+}
+
+.score-container {
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.points-container {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 1em;
+}
+
+.add-points-container {
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-ponts-btn {
+    width: 45px;
+    font-family: scoreFont, sans-serif;
+    color: #9AABD8;
+    background: none;
+    border: 2px solid #9AABD8;
+    border-radius: 4px
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color: #EEEEEE;
+    margin:0 0 0.5em 0;
+}
+
+h4 {
+    font-family: scoreFont;
+    font-size: 6em;
+    color: #F94F6D;
+}
